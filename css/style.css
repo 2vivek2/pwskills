@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;700&family=sans-serif:wght@400;700&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #fbfeff;
+    
+}
+footer{
+    font-family: 'poppins', sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: #5a4bda;
+    font-size: 48px;
+}
+h2{
+    color: #5a4bda;  
+    
+
+}
+h3{
+    color:#757575;
+    font-size: rem;
+}
+h4{
+    color: black;
+    font-size: 2rem;
+}
+p{
+    color: #757575;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+
+}
+.pw-logo{
+    justify-content: left;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.learn{
+    display: flex;
+    margin-top: 20px;
+    padding: 1px 300px;
+    border-radius: 6px;
+    
+}
+button{
+    padding: ;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #5a4bda;
+    color: white;
+    font-family: sans-serif;
+    font-size: medium;
+    border: #5a4bda;
+}
+/* first nav complete */
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-top: 35px;
+    gap: 50px;
+   margin-left: 170px;
+   font-size: 1.2rem;
+    
+    
+}
+/* nav complete */
+
+.banner{
+    margin-top: 30px;
+}
+.h1-hardwork{
+    text-align: center;
+    margin-top: 80px;
+}
+/* .achievements{
+    display:inline  ;
+    list-style: none;
+    flex-direction: row;
+} */
+
+.achievements{
+    /* border: 200px solid red; */
+    display: flex;
+    gap: 150px;
+    line-height: 70px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.diff{
+    display: block;
+    text-align: center;
+    
+}
+
+.student{
+    display: block;
+    text-align: center;
+}
+.trans{
+    display: block;
+    text-align: center;
+}
+.box{
+    border: 2px solid orange;
+    margin-left: 610px;
+    margin-right: 610px;
+    margin-top: 8px;
+
+}
+/* overall-section-complete */
+
+/* achievers section begins */
+
+.ach-section{
+    background-color: #eaecef;
+    margin-top: 70px;
+    height: 401px;
+    padding-top: 100px;
+}
+
+
+.ach1{
+    display: flex;
+    justify-content: center;
+    
+}
+.achievers{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 100px;
+}
+/* achievers-section ends */
+
+/* achievers-section starts */
+
+.hof{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.boxes{
+    height: 432px;
+    /* border: 4px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+.box-1{
+    height: 435px;
+    width: 350px;
+    text-align: center;
+    background-color: #fbfeff;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 171, 171, 0.25) 0px 0px 20px 0px;
+    border-radius: 12px;
+
+}
+.img-1{
+    border-radius: 80%;
+    padding-top: 30px;
+}
+.box-2{
+    height: 435px;
+    width: 350px;
+    text-align: center;
+    background-color: #fbfeff;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 171, 171, 0.25) 0px 0px 20px 0px;
+    border-radius: 12px;
+}
+.img-2{
+    border-radius: 80%;
+    padding-top: 30px;
+}
+.box-3{
+    height: 435px;
+    width: 350px;
+    text-align: center;
+    background-color: #fbfeff;
+    box-shadow: rgba(199, 195, 195, 0.61) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 171, 171, 0.25) 0px 0px 20px 0px;
+    border-radius: 12px;
+    
+}
+.img-3{
+    border-radius: 80%;
+    padding-top: 30px;
+}
+
+/* achievers-section-ends */
+
+/* courses begins */
+.courses{
+    padding-top: 200px;
+}
+.course-name{
+    display: flex;
+    justify-content: space-around;
+    padding-top:70px;
+}
+
+.course{
+    /* border: 2px solid rebeccapurple; */
+    height: 700px;
+    text-align: center;
+}
+.cn1{
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 171, 171, 0.25) 0px 0px 20px 0px;
+    border-radius: 12px;
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    line-height: 30px;
+}
+.cni1{
+    padding-top: 35px;
+}
+.cn2{
+    /* border: 2px solid rebeccapurple; */
+    height: 400px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 171, 171, 0.25) 0px 0px 20px 0px;
+    border-radius: 12px;
+}
+.cni2{
+    padding-top: 35px;
+}
+.cni3{
+    padding-top: 35px;
+}
+.cn3{
+    /* border: 2px solid rebeccapurple; */
+    height: 400px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(171, 171, 171, 0.25) 0px 0px 20px 0px;
+    border-radius: 12px;
+
+}
+
+/* courses-ends */
+
+/* our products begins */
+
+.products{
+    /* display: flex; */
+    /* border: 2px solid rebeccapurple; */
+    height: 700px;
+    text-align: center;
+    background-color: #fbfeff;
+}
+.products-name{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 70px;
+}
+    .pn1{
+    /* border: 2px solid rebeccapurple; */
+    height: 320px;
+    width: 320px;
+}
+.pn1 h2{
+    color: black;
+}
+.pn2{
+    /* border: 2px solid rebeccapurple; */
+    height: 320px;
+    width: 320px;
+    
+}
+.pn2 h2{
+    color: black;
+}
+.pn3{
+    /* border: 2px solid rebeccapurple; */
+    height: 320px;
+    width: 320px;
+   
+}
+.pn3 h2{
+    color:black;
+}
+.pn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.pn4{
+    height: 320px;
+    width: 320px;
+    margin-left: 180px;
+}
+.pn4 h2{
+    color: black;
+}
+.pn5{
+    height: 320px;
+    width: 320px;
+    margin-right: 180px;
+}
+.pn5 h2{
+    color: black;
+}
+/* our products ends */
+
+/* footer begins */
+
+.footer{
+    /* border: 2px solid rebeccapurple; */
+    height: 500px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b2124;
+    color: white;
+    
+}
+.cf1{
+    /* border: 2px solid red; */
+    height: 288px;
+    width: 254px;
+    margin-top: 80px;
+    text-align: center;
+}
+.cf2{
+    /* border: 2px solid red; */
+    height: 288px;
+    width: 254px;
+    margin-top: 80px;
+}
+.cf2 p{
+    color: white;
+}
+.cf2 h2{
+    color: white;
+    font-size: 35px;
+}
+
+.cf3{
+    /* border: 2px solid red; */
+    height: 288px;
+    width: 254px;
+    margin-top: 80px;
+    text-align: center;
+}
+.cf3 p{
+    color: white;
+    
+}
+.cf3 h2{
+    color: white;
+    font-size: 35px;
+}
